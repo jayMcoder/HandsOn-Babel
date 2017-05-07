@@ -1,0 +1,40 @@
+{
+  "name": "babel-handson",
+  "version": "1.0.0",
+  "description": "handson babel transcompiler",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel --version",
+    "build": "babel src --out-dir dist",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "keywords": [
+    "javascript",
+    "babel",
+    "ecma5",
+    "ecma6"
+  ],
+  "author": "jay",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.16.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "webpack": "^1.13.2"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.18.0"
+  }
+}
